@@ -1,45 +1,29 @@
 .top-menu {
-    background: var(--black);
-    color: red;
-   
-   
+
 }
-search-box input{
-    border: solid black;
-    border: solid 20px;
-    font-size: 1em;
-    background-color: gray;
-  }
-  search-box input: hover{
-    cursor: pointer;
-  }
-  .search-line{
-    border: .025rem solid gray;
-   height: 30px;
-   
-  }
-  .search-icon{
-    image-resolution: 10px;
-    width: 2em;
-    height: 2em;
-    
-  }
-  .globe{
-    image-resolution: 10px;
-    width: 2em;
-    height: 2em;
-  }
-  
-.menu-list{
-  display: flex;
-  flex-direction: row;
- align-content: center;
-  background: 10px solid goldenrod;
+@ -13,6 +13,7 @@ search-box input{
+search-box input: hover{
+  cursor: pointer;
+}
+
+.search-line{
+  border: .025rem solid gray;
+ height: 30px;
+@ -37,7 +38,15 @@ search-box input{
+background: 10px solid goldenrod;
 justify-content: space-between;
 height: 70px;
 border:1px solid red;
+text-decoration: none;
+
+}
+.nav-link{
+color: black;
+text-decoration: none;
+}
+.nav-link:hover{
+color:blue;
 }
 .small-logo-text{
 font-size: 10px;
-font-style: bold;
 }
