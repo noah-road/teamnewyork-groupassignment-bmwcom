@@ -1,9 +1,9 @@
-..top-menu {
+.top-menu {
   background: var(--black);
   color: red;
   color: black;
- 
- 
+
+
 }
 @ -13,6 +13,7 @@ search-box input{
 search-box input: hover{
@@ -30,3 +30,4 @@ color:blue;
 }
 .small-logo-text{
 font-size: 10px;
+}
