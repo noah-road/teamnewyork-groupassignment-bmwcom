@@ -11,90 +11,230 @@
     <link rel="stylesheet" href="css/top-menu.css">
     <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/highlights.css">
-    <link rel="stylesheet" href="css/call-to-action__search.css">
+    <link rel="stylesheet" href="css/calltoaction.css">
     <link rel="stylesheet" href="css/blocks.css">
     <link rel="stylesheet" href="css/show-more.css">
     <link rel="stylesheet" href="css/social.css">
     <link rel="stylesheet" href="css/footer.css">
+    <!--social-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--animate.css-->
+    <link rel="stylesheet" href="animate.min.css">
 </head>
 
 <body>
     <nav>
         <!-- top menu -->
         <ul class="menu-list">
-            <a href="home" class="menu-link">Home</a>
-           <a href="automative life" class="menu-link">Automotive Life</a>
-              <a href="design" class="menu-link">Design</a>
-              <a href="innovation" class="menu-link">Innovation</a>
-              <a href="performance" class="menu-link">Performance</a>
-              <a href="models" class="menu-link">Models</a>
-              <div class="search box">
-              <input type="text">
-              <span></span></div>
-              <img src="http://www.w3.org/1999/xlink" small image logo="#icon-globe">
-              <p class="small-logo-text">BMW in your country</p>
-               <img src="https://www.bmw.com/etc/designs/bmwcom/base/img/logo-en.png">
-            </div>
-            
-       </ul>
+
     </nav>
     <section class="hero">
         <!-- Hero container -->
+        <div>
+            <video autoplay muted>
+                <source
+                    src="https://www.bmw.com/video/is/content/BMW/bmwcom/bmw_com/category/Automotive%20Life/art-of-life/aol-00-teaser-high.mp4" />
+                <p class="interior">Interior design</p>
+                <span class="inspire">Inspired by nature</span>
+                <div class="read">Read more</div>
+            </video>
+        </div>
     </section>
     <section class="highlights">
-        <!-- Highlights container-->
+        <div class="picture-left">
+            <div class="video-container">
+                <div class="wrapper-text">
+                    <h2>Brooklyn Beckham</h2>
+                    <h1>"My camera is my travel companion"</h1>
+                    <a href="#">Read More</a>
+                </div>
+                <video class="ElaisyVideo" autoplay muted loop>
+                    <source
+                        src="https://www.bmw.com/video/is/content/BMW/bmwcom/bmw_com/category/Automotive%20Life/brooklyn/2/bb-00-teaser-square.mp4"
+                        type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+
+        <div class="picture-right">
+
+            <div class="video-container">
+                <div class="wrapper-text">
+                    <h2>BMW NIGHT SKY</h2>
+                    <h1>How a meteorite got into a car</h1>
+                    <a href="#">Read More</a>
+                </div>
+                <video class="ElaisyVideo" autoplay muted loop>
+                    <source
+                        src="https://www.bmw.com/video/is/content/BMW/bmwcom/bmw_com/category/innovation/night-sky/ns-00-teaser-square.mp4"
+                        type="video/mp4">
+                </video>
+            </div>
+
+
+
+        </div>
+
     </section>
     <section class="call-to-action__search">
-        <!-- Search -->
+        <div class="cta">
+            <h4 class="subcta">BMW in your country</h4>
+            <h1 class="titlecta">ALL BMW MODELS</h1>
+            <!---not yet animated-->
+            <a class="linkcta" href="#"> <span class="icon animated slideOutUp">></span> Find your BMW</a>
+        </div>
     </section>
     <section class="blocks-container">
-        <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
+        <div class="block big-block gray">
+            <div class="videoWrapper">
+                <video autoplay loop muted>
+                    <source
+                        src="https://www.bmw.com/video/is/content/BMW/bmwcom/bmw_com/category/performance/0-100/0-00-teaser-hd.mp4"
+                        type="video/mp4">
+                    Your browser does not support the video tag
+                </video>
+            </div>
+            <div class="text-block">
+                <p class="subline">Acceleration</p>
+                <h3 class="header">From 0 to 60: Get up to speed on acceleration!</h3>
+            </div>
+        </div>
+        <div class="block gray">
+            <div class="videoWrapper">
+                <video autoplay loop muted>
+                    <source
+                        src="https://www.bmw.com/video/is/content/BMW/bmwcom/bmw_com/category/Automotive%20Life/new-car/1/nc-00-teaser-hd.mp4"
+                        type="video/mp4">
+                    Your browser does not support the video tag
+                </video>
+            </div>
+            <div class="text-block">
+                <p class="subline">Advice</p>
+                <h3 class="header">Buy and go? Things to consider with your new car</h3>
+            </div>
+        </div>
+        <div class="block gray">
+            <div class="imageWrapper">
+                <img class="img"
+                    src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/Innovation/monocle/mo-00-teaser-hd1.jpg.asset.1553504375727.jpg"
+                    alt="Grapefruit slice atop a pile of other slices" />
+            </div>
+            <div class="text-block">
+                <p class="subline">Luxury</p>
+                <h3 class="header">The art of owning the moment</h3>
+            </div>
         </div>
         <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
+            <div class="imageWrapper">
+                <img class="img"
+                    src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/Design/my_favorite_space/mfs-00-teaser-hd.jpg.asset.1537430075672.jpg"
+                    alt="Grapefruit slice atop a pile of other slices" />
+            </div>
+            <div class="text-block">
+                <p class="subline">Design</p>
+                <h3 class="header">The secret of our favorite places</h3>
+            </div>
         </div>
         <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
+            <div class="videoWrapper">
+                <video autoplay loop muted>
+                    <source
+                        src="https://www.bmw.com/video/is/content/BMW/bmwcom/bmw_com/category/innovation/copilot-2/copilot-00-teaser-hd.mp4"
+                        type="video/mp4">
+                    Your browser does not support the video tag
+                </video>
+            </div>
+
+            <div class="text-block">
+                <p class="subline">Self-driving cars</p>
+                <h3 class="header">The Road To Autonomous Driving</h3>
+            </div>
         </div>
         <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
+            <div class="imageWrapper">
+                <img class="img"
+                    src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/Innovation/Mapping/mapping-00-teaser-hd.jpg.asset.1510611735857.jpg"
+                    alt="Grapefruit slice atop a pile of other slices" />
+            </div>
+            <div class="text-block">
+                <p class="subline">Mapping</p>
+                <h3 class="header">Digital measuring of the world</h3>
+            </div>
         </div>
         <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
+            <div class="videoWrapper">
+                <video autoplay loop muted>
+                    <source
+                        src="https://www.bmw.com/video/is/content/BMW/bmwcom/bmw_com/category/Automotive%20Life/Autonomous%20Driving/autonomous-driving-00-teaser-hd.mp4"
+                        type="video/mp4">
+                    Your browser does not support the video tag
+                </video>
+            </div>
+
+            <div class="text-block">
+                <p class="subline">Autonomous driving</p>
+                <h3 class="header">Where are we today? How do we drive tomorrow?</h3>
+            </div>
+        </div>
+        <div class="block big-block">
+            <div class="imageWrapper">
+                <img class="img"
+                    src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/automotive-life/carsharing/carsharingprofis-00-teaser-hd.jpg.asset.1510611854915.jpg"
+                    alt="Grapefruit slice atop a pile of other slices" />
+            </div>
+            <div class="text-block">
+                <p class="subline">Carsharing</p>
+                <h3 class="header">Carsharing experts share top secrets</h3>
+            </div>
         </div>
         <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
+            <div class="videoWrapper">
+                <video autoplay loop muted>
+                    <source
+                        src="https://www.bmw.com/video/is/content/BMW/bmwcom/bmw_com/category/performance/bowers-wilkins/bw-00-teaser-hd.mp4"
+                        type="video/mp4">
+                    Your browser does not support the video tag
+                </video>
+            </div>
+            <div class="text-block">
+                <p class="subline">Music</p>
+                <h3 class="header">The 6 best songs to test your car speakers</h3>
+            </div>
         </div>
         <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
+            <div class="imageWrapper">
+                <img class="img"
+                    src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/automotive-life/bmw-erlkoenige/bmw-erlkoenige-00-teaser-hd.jpg.asset.1517490275436.jpg"
+                    alt="Grapefruit slice atop a pile of other slices" />
+            </div>
+            <div class="text-block">
+                <p class="subline">Erlkönig – German prototype cars</p>
+                <h3 class="header">The art of deception</h3>
+            </div>
         </div>
         <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
+            <div class="imageWrapper">
+                <img class="img"
+                    src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/Innovation/smart-cities/smart-cities-00-teaser-hd.jpg.asset.1510611715654.jpg"
+                    alt="Grapefruit slice atop a pile of other slices" />
+            </div>
+            <div class="text-block">
+                <p class="subline">Smart cities</p>
+                <h3 class="header">These cities are really thinking</h3>
+            </div>
         </div>
         <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
-        </div>
-        <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
-        </div>
-        <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
-        </div>
-        <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
+            <div class="imageWrapper">
+                <img class="img"
+                    src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/Innovation/rad-hub/hub-00-teaser-hd.jpg.asset.1543324879127.jpg"
+                    alt="Grapefruit slice atop a pile of other slices" />
+            </div>
+            <div class="text-block">
+                <p class="subline">Innovation</p>
+                <h3 class="header">Is this the Future of Mobility?</h3>
+            </div>
         </div>
     </section>
     <section class="call-to-action__show-more">
@@ -103,58 +243,196 @@
     </section>
     <section class="socials">
         <!-- Socials -->
+        <div class="header-social">
+            <h1>BMW ON THE SOCIAL WEB</h1>
+            <h2>Become part of the BMW community</h2>
+        </div>
+        <div class="wrapper">
+            <div class="post post-1">
+                <div class="profiel">
+                    <h3>bmwi</h3>
+                    <h3><a href="#">Profiel bekijken</a></h3>
+                </div>
+                <div class="plaatje"></div>
+                <div class="instagram">
+                    <h3><a href="#">Meer bekijken op Instagram</a></h3>
+                </div>
+                <div class="facebook">
+                    <i class="far fa-heart fa-2x"></i>
+                    <i class="far fa-comment fa-2x"></i>
+                    <i class="far fa-bookmark fa-2x"></i>
+                    <h3>Vind ik leuk</h3>
+                </div>
+                <div class="opmerking">
+                    <textarea placeholder="Voeg een opmerking toe...."></textarea>
+                    <i class="fab fa-instagram fa-2x"></i>
+                </div>
+
+            </div>
+            <div class="post post-2">
+                <div class="profiel">
+                    <h3>bmwi</h3>
+                    <h3><a href="#">Profiel bekijken</a></h3>
+                </div>
+                <div class="plaatje"></div>
+                <div class="instagram">
+                    <h3><a href="#">Meer bekijken op Instagram</a></h3>
+                </div>
+                <div class="facebook">
+                    <i class="far fa-heart fa-2x"></i>
+                    <i class="far fa-comment fa-2x"></i>
+                    <i class="far fa-bookmark fa-2x"></i>
+                    <h3>Vind ik leuk</h3>
+                </div>
+                <div class="opmerking">
+                    <textarea placeholder="Voeg een opmerking toe...."></textarea>
+                    <i class="fab fa-instagram fa-2x"></i>
+                </div>
+            </div>
+            <div class="post post-3">
+                <div class="profiel">
+                    <h3>bmwi</h3>
+                    <h3><a href="#">Profiel bekijken</a></h3>
+                </div>
+                <div class="plaatje"></div>
+                <div class="instagram">
+                    <h3><a href="#">Meer bekijken op Instagram</a></h3>
+                </div>
+                <div class="facebook">
+                    <i class="far fa-heart fa-2x"></i>
+                    <i class="far fa-comment fa-2x"></i>
+                    <i class="far fa-bookmark fa-2x"></i>
+                    <h3>Vind ik leuk</h3>
+                </div>
+                <div class="opmerking">
+                    <textarea placeholder="Voeg een opmerking toe...."></textarea>
+                    <i class="fab fa-instagram fa-2x"></i>
+                </div>
+            </div>
+
+            <div class="post post-4">
+                <div class="profiel">
+                    <h3>bmwi</h3>
+                    <h3><a href="#">Profiel bekijken</a></h3>
+                </div>
+                <div class="plaatje"></div>
+                <div class="instagram">
+                    <h3><a href="#">Meer bekijken op Instagram</a></h3>
+                </div>
+                <div class="facebook">
+                    <i class="far fa-heart fa-2x"></i>
+                    <i class="far fa-comment fa-2x"></i>
+                    <i class="far fa-bookmark fa-2x"></i>
+                    <h3>Vind ik leuk</h3>
+                </div>
+                <div class="opmerking">
+                    <textarea placeholder="Voeg een opmerking toe...."></textarea>
+                    <i class="fab fa-instagram fa-2x"></i>
+                </div>
+            </div>
+            <div class="post post-5">
+                <div class="profiel">
+                    <h3>bmwi</h3>
+                    <h3><a href="#">Profiel bekijken</a></h3>
+                </div>
+                <div class="plaatje"></div>
+                <div class="instagram">
+                    <h3><a href="#">Meer bekijken op Instagram</a></h3>
+                </div>
+                <div class="facebook">
+                    <i class="far fa-heart fa-2x"></i>
+                    <i class="far fa-comment fa-2x"></i>
+                    <i class="far fa-bookmark fa-2x"></i>
+                    <h3>Vind ik leuk</h3>
+                </div>
+                <div class="opmerking">
+                    <textarea placeholder="Voeg een opmerking toe...."></textarea>
+                    <i class="fab fa-instagram fa-2x"></i>
+                </div>
+            </div>
+            <div class="post post-6">
+                <div class="profiel">
+                    <h3>bmwi</h3>
+                    <h3><a href="#">Profiel bekijken</a></h3>
+                </div>
+                <div class="plaatje"></div>
+                <div class="instagram">
+                    <h3><a href="#">Meer bekijken op Instagram</a></h3>
+                </div>
+                <div class="facebook">
+                    <i class="far fa-heart fa-2x"></i>
+                    <i class="far fa-comment fa-2x"></i>
+                    <i class="far fa-bookmark fa-2x"></i>
+                    <h3>Vind ik leuk</h3>
+                </div>
+                <div class="opmerking">
+                    <textarea placeholder="Voeg een opmerking toe...."></textarea>
+                    <i class="fab fa-instagram fa-2x"></i>
+                </div>
+            </div>
+            <div class="post post-7">
+                <div class="profiel">
+                    <h3>bmwi</h3>
+                    <h3><a href="#">Profiel bekijken</a></h3>
+                </div>
+                <div class="plaatje"></div>
+                <div class="instagram">
+                    <h3><a href="#">Meer bekijken op Instagram</a></h3>
+                </div>
+                <div class="facebook">
+                    <i class="far fa-heart fa-2x"></i>
+                    <i class="far fa-comment fa-2x"></i>
+                    <i class="far fa-bookmark fa-2x"></i>
+                    <h3>Vind ik leuk</h3>
+                </div>
+                <div class="opmerking">
+                    <textarea placeholder="Voeg een opmerking toe...."></textarea>
+                    <i class="fab fa-instagram fa-2x"></i>
+                </div>
+            </div>
+            <div class="post post-8">
+                <div class="profiel">
+                    <h3>bmwi</h3>
+                    <h3><a href="#">Profiel bekijken</a></h3>
+                </div>
+                <div class="plaatje"></div>
+                <div class="instagram">
+                    <h3><a href="#">Meer bekijken op Instagram</a></h3>
+                </div>
+                <div class="facebook">
+                    <i class="far fa-heart fa-2x"></i>
+                    <i class="far fa-comment fa-2x"></i>
+                    <i class="far fa-bookmark fa-2x"></i>
+                    <h3>Vind ik leuk</h3>
+                </div>
+                <div class="opmerking">
+                    <textarea placeholder="Voeg een opmerking toe...."></textarea>
+                    <i class="fab fa-instagram fa-2x"></i>
+                </div>
+            </div>
+            <div class="post post-9">
+                <div class="profiel">
+                    <h3>bmwi</h3>
+                    <h3><a href="#">Profiel bekijken</a></h3>
+                </div>
+                <div class="plaatje"></div>
+                <div class="instagram">
+                    <h3><a href="#">Meer bekijken op Instagram</a></h3>
+                </div>
+                <div class="facebook">
+                    <i class="far fa-heart fa-2x"></i>
+                    <i class="far fa-comment fa-2x"></i>
+                    <i class="far fa-bookmark fa-2x"></i>
+                    <h3>Vind ik leuk</h3>
+                </div>
+                <div class="opmerking">
+                    <textarea placeholder="Voeg een opmerking toe...."></textarea>
+                    <i class="fab fa-instagram fa-2x"></i>
+                </div>
+            </div>
+        </div>
     </section>
-    <footer class="main-footer-container">
-        <!--footer-->
-        <footer class="footer">
-   <div>
-        <p>Quick Links <ul>
-        <li>Home</li>
-        <li>BMW in your country</li>
-        <li>Careers</li>
-        <li>EU detergents</li>
-        <li>Regulations</li>
-        <li>REACH Regulation</li>
-        <li>Compatibiity check</li>
-        <li>Software update</li>
-        <li>Accessiories update</li>
-        </ul></p>
-  </div>
-<div>
-        <p>More BMW Websites<ul>
-        <li>BMW M</li>
-        <li>BMW Motorsport</li>
-        <li>BMW Golfsport</li>
-        <li>BMW Yachtsport</li>
-        <li>BMW Mountains</li>
-        <li>BMW Driving</li>
-        <li>Experience</li>
-        </ul></p>
-        </div>  
-  <div>
-      <p>BMW.com<ul>
-            <li>BMW m</li>
-            <li>About BMW.com</li>
-            <li>Contact</li>
-            <li>Cookies</li>
-            <li>Imprint</li>
-            <li>Legal Notice/Data</li>
-            <li>protection</li>
-        </ul></p>
-      </div>
- <div>
-        <p>Visit us on<ul>
-        <li><a class="nav-link" href="#">facebook</a></li>
-        <li><a class="nav-link" href="#">twitter</a></li>
-        <li><a class="nav-link" href="#">instagram</a></li>
-        <li><a class="nav-link" href="#">Google+</a></li>
-        <li><a class="nav-link" href="#">youtube</a></li>
-        </ul></p>
-       </div>
-       <p>BMW AG 2019</p>
-       <div>
-       </div>
- </footer>
+
 </body>
 
 </html>
