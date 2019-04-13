@@ -15,3 +15,9 @@ html, body {
     margin: 0;
 }
 
+.inline-list {
+    list-style: none;
+}
+.inline-list li {
+    display: inline;
+}
